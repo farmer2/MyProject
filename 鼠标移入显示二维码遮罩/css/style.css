@@ -1,0 +1,42 @@
+@charset "utf-8";
+/************************************************************global style************************************************************/
+/*重置样式*/
+html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p,blockquote,pre,form,fieldset,table,th,td,input,textarea,hr,img,label,span,select,strong,b{margin:0px;padding:0px;}
+fieldset,img,abbr,acronym{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;} 
+q:before,q:after{content:'';} 
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;} 
+caption,th,td{text-align:left;font-weight:normal;} 
+a,img,button{border:none;text-decoration:none;} 
+a,button{text-decoration:none;}
+a,img{border:none;outline:none;} 
+a{color:#333;text-decoration:none;outline:none;}
+ul,ol{list-style:none;}
+body{font-family:宋体,Arial, Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif;font-size:12px;font-weight:normal;color:#000;width:100%;background:#f0f0f0;}
+
+/*清除浮动*/
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.clearfix{display:inline-table;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+.cb{clear:both;}
+.cl{clear:left;}
+.cr{clear:right;}
+
+/*精彩案例*/
+.company_con{margin:20px auto 0 auto;width:980px;}
+.company_con ul{width:980px;height:58px;border-bottom:2px solid #029be7;}
+.company_con ul li{float:left;padding:0 35px;height:58px;line-height:58px;margin-right:10px;background:url("../images/casenosel_bg.jpg"); border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9; font-family:微软雅黑;}
+.company_con ul li a{font-size:28px;color:#8c8c8c;}
+.company_con ul li.selected{background:url("../images/casesel_bg.jpg");border:none;}
+.company_con ul li.selected a{color:#fff;}
+#companyList{width:970px;margin:28px auto;}
+.company_b2b dl{float:left;width:220px;height:320px;text-align:center;margin-left:30px;position:relative; }
+.company_b2b dl.dl_first{margin-left:0;}
+.company_b2b dl dt{width:218px;height:268px;border:1px  solid #dadada;background-color:#fff;}
+.company_b2b dl dt.ererima_img{ position:absolute;left:0;top:0;}
+.company_b2b dl dt.ererima_img img{width:120px;height:120px;margin-top:72px;}
+.hid{display:none;}
+.company_b2b dl dt.company_img img{margin-top:4px;}
+.company_b2b dl dd{font-size:16px;color:#737373;margin-top:12px;font-family:微软雅黑;}
+.company_b2b dl dd.mouse_effi{color:#ff7f00;text-decoration:underline;}
